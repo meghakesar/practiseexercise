@@ -11,8 +11,13 @@ public void invokeBrowser() {
 	driver.manage().window().maximize();
 	driver.manage().deleteAllCookies();
 	String browserTitle = driver.getTitle();
-	System.out.println("title of the browser is:" +browserTitle);
+	if (browserTitle.equals ("Guru99 Bank Home Page")) {
+		System.out.println("Testcase PASS");
 	}
+	else {
+	System.out.println("Testcase Fail");
+	}
+}
  
 public void login(String userId, String password) {
 	driver.findElement(By.name("uid")).sendKeys(userId);
