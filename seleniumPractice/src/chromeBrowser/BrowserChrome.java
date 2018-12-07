@@ -6,7 +6,8 @@ public class BrowserChrome {
 		BrowserDemo bd = new BrowserDemo();
 		bd.invokeBrowser();
 		bd.login("mngr166786","nAhebAv");
-		bd.closeBrowser();
+		bd.newCustomer();
+		//bd.closeBrowser();
 
 	}
 

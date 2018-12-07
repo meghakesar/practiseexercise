@@ -25,10 +25,27 @@ public void login(String userId, String password) {
 	driver.findElement(By.name("btnLogin")).click();
 	
 }
-
-public void closeBrowser() {
-	driver.close();
+public void newCustomer() {
+	driver.findElement(By.linkText("New Customer")).click();
+	driver.findElement(By.name("name")).sendKeys("abc");
+	driver.findElement(By.xpath("//input[@value='f']")).click();
+	driver.findElement(By.id("dob")).sendKeys("15/12/1983");
+	driver.findElement(By.name("addr")).sendKeys("NIT 1");
+	driver.findElement(By.name("city")).sendKeys("Faridabad");
+	driver.findElement(By.name("state")).sendKeys("Haryana");
+	driver.findElement(By.name("pinno")).sendKeys("121001");
+	driver.findElement(By.name("telephoneno")).sendKeys("1234567890");
+	String emailId = "aa" + System.currentTimeMillis() + "@gmail.com";
+	System.out.println("email id is" +emailId);
+	driver.findElement(By.name("emailid")).sendKeys(emailId);
+	driver.findElement(By.name("password")).sendKeys("12345");
+	driver.findElement(By.name("sub")).click();
+	
 }
+
+//public void closeBrowser() {
+	//driver.close();
+//}
 	
 }
 
