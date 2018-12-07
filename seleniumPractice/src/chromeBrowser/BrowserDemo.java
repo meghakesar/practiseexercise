@@ -36,7 +36,7 @@ public void newCustomer() {
 	driver.findElement(By.name("pinno")).sendKeys("121001");
 	driver.findElement(By.name("telephoneno")).sendKeys("1234567890");
 	String emailId = "aa" + System.currentTimeMillis() + "@gmail.com";
-	System.out.println("email id is" +emailId);
+	System.out.println("email id is  " +emailId);
 	driver.findElement(By.name("emailid")).sendKeys(emailId);
 	driver.findElement(By.name("password")).sendKeys("12345");
 	driver.findElement(By.name("sub")).click();
