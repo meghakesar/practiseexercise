@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNGPractice.TestNGDemo" class="method navigator-link" hash-for-method="checkApplication">checkApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="assignment4.EdurekaTestNg" class="method navigator-link" hash-for-method="loginEdureka">loginEdureka</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNGPractice.TestNGDemo" class="method navigator-link" hash-for-method="loginApplication">loginApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="assignment4.EdurekaTestNg" class="method navigator-link" hash-for-method="logoutCourse">logoutCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assignment4.EdurekaTestNg" class="method navigator-link" hash-for-method="searchCourse">searchCourse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,25 +130,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testNGPractice.TestNGDemo</span>
+              <span class="class-name">assignment4.EdurekaTestNg</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkApplication">
-                  </a> <!-- checkApplication -->
-                  <span class="method-name">checkApplication</span>
-                  <em>
-(checking TestNg)                  </em>
+                  <a name="loginEdureka">
+                  </a> <!-- loginEdureka -->
+                  <span class="method-name">loginEdureka</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginApplication">
-                  </a> <!-- loginApplication -->
-                  <span class="method-name">loginApplication</span>
-                  <em>
-(Launching TestNg)                  </em>
+                  <a name="logoutCourse">
+                  </a> <!-- logoutCourse -->
+                  <span class="method-name">logoutCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCourse">
+                  </a> <!-- searchCourse -->
+                  <span class="method-name">searchCourse</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/sg/jxkf91f971zdn3xw29q4f8r00000gn/T/testng-eclipse-1575702694/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/sg/jxkf91f971zdn3xw29q4f8r00000gn/T/testng-eclipse--513108565/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -160,7 +168,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNGPractice.TestNGDemo&quot;/&gt;
+      &lt;class name=&quot;assignment4.EdurekaTestNg&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -200,20 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginApplication')
-data.setCell(0, 2, 'testNGPractice.TestNGDemo')
-data.setCell(0, 3, 17);
+data.setCell(0, 1, 'loginEdureka')
+data.setCell(0, 2, 'assignment4.EdurekaTestNg')
+data.setCell(0, 3, 7814);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkApplication')
-data.setCell(1, 2, 'testNGPractice.TestNGDemo')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'logoutCourse')
+data.setCell(1, 2, 'assignment4.EdurekaTestNg')
+data.setCell(1, 3, 7812);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchCourse')
+data.setCell(2, 2, 'assignment4.EdurekaTestNg')
+data.setCell(2, 3, 4890);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -239,15 +251,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNGPractice.TestNGDemo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginApplication</span>
+              <div class="chronological-class-name">assignment4.EdurekaTestNg</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">invokeBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginEdureka</span>
+                <span class="method-start">10887 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">checkApplication</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-name">searchCourse</span>
+                <span class="method-start">18708 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutCourse</span>
+                <span class="method-start">23601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">31415 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
