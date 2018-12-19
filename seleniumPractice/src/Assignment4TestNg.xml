@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="EdurekaDemotest" verbose="1" >
+  <test name="Edurekademo" >
+    <classes>
+       <class name="assignment4.EdurekaTestNg" />
+    </classes>
+  </test>
+ 
+</suite>

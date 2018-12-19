@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment4.EdurekaTestNg">
+      <class name="assignment7.EdurekaAssignment7">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="loginEdureka"/>
-          <include name="logoutCourse"/>
+          <include name="placeOrder"/>
+          <include name="searchFlipkart"/>
           <include name="invokeBrowser"/>
-          <include name="searchCourse"/>
+          <include name="enterPincode"/>
         </methods>
-      </class> <!-- assignment4.EdurekaTestNg -->
+      </class> <!-- assignment7.EdurekaAssignment7 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
